@@ -3,7 +3,7 @@ import inquirer from "inquirer";
 import chalk from "chalk";
 let todos = [];
 let condition = true;
-console.log(chalk.redBright.italic("\n\t Todo list application by Hashir Raees\n\t"));
+console.log(chalk.bold.cyanBright("\n\tWELCOME\n\t"), chalk.redBright.italic("\n Todo list application by HashirRaees\n"));
 while (condition) {
     let todosQuestions = await inquirer.prompt([
         {
